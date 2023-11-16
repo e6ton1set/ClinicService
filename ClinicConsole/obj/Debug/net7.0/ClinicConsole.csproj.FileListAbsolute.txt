@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\bin\Debug\net7.0\ClinicConsole.exe
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\bin\Debug\net7.0\ClinicConsole.deps.json
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\bin\Debug\net7.0\ClinicConsole.runtimeconfig.json
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\bin\Debug\net7.0\ClinicConsole.dll
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\bin\Debug\net7.0\ClinicConsole.pdb
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.AssemblyInfo.cs
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.dll
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\refint\ClinicConsole.dll
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.pdb
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.genruntimeconfig.cache
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ref\ClinicConsole.dll
