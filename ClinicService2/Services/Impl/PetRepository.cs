@@ -75,7 +75,7 @@ namespace ClinicService.Services.Impl
             connection.ConnectionString = connectionString;
             connection.Open();
             using SqliteCommand command = 
-                new SqliteCommand("SELECT * FROM pets WHERE PetId=@PetId)", connection);
+                new SqliteCommand("SELECT * FROM pets WHERE PetId=@PetId", connection);
             command.Parameters.AddWithValue("@PetId", id);
             command.Prepare();
 

@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "jrMPJAJncFCdxey1prjI2aZZ5CSFK6TlyhP38xs8BuI=",
-  "Source": "ClinicService2",
-  "BasePath": "_content/ClinicService2",
+  "Hash": "sTtzCop3kvDKxVBA86pVVm9pBhUc15VF41MEtK16WHI=",
+  "Source": "ClinicService",
+  "BasePath": "_content/ClinicService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
