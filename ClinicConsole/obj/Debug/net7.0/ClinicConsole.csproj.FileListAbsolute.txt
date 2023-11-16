@@ -12,3 +12,6 @@ C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\refint\
 C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.pdb
 C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.genruntimeconfig.cache
 C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ref\ClinicConsole.dll
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.csproj.CopyComplete

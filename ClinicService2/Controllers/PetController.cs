@@ -19,8 +19,8 @@ namespace ClinicService.Controllers
             _petRepository = petRepository;
         }
 
-        [HttpPost("add-pet")]
-        public IActionResult Create([FromBody] CreatePetRequest createPetRequest)
+        [HttpPost("add-pet", Name = "PetAdd")]
+        public ActionResult<int> Create([FromBody] CreatePetRequest createPetRequest)
         {
             Pet pet = new Pet();
             pet.ClientId = createPetRequest.ClientId;
@@ -29,8 +29,8 @@ namespace ClinicService.Controllers
             return Ok(_petRepository.Create(pet));
         }
 
-        [HttpPut("edit-pet")]
-        public IActionResult Update([FromBody] UpdatePetRequest updatePetRequest)
+        [HttpPut("edit-pet", Name = "PetUpdate")]
+        public ActionResult<int> Update([FromBody] UpdatePetRequest updatePetRequest)
         {
             Pet pet = new Pet();
             pet.PetId = updatePetRequest.PetId;
@@ -40,21 +40,21 @@ namespace ClinicService.Controllers
             return Ok(_petRepository.Update(pet));
         }
 
-        [HttpGet("get-all-pets")]
-        public IActionResult GetAll()
+        [HttpGet("get-all-pets", Name = "PetGetAll")]
+        public ActionResult<List<Pet>> GetAll()
         {
             return Ok(_petRepository.GetAll());
         }
 
-        [HttpDelete("delete-pet")]
-        public IActionResult Delete([FromQuery] int petId)
+        [HttpDelete("delete-pet", Name = "PetDelete")]
+        public ActionResult<int> Delete([FromQuery] int petId)
         {
             int result = _petRepository.Delete(petId);
             return Ok(result);
         }
 
-        [HttpGet("get/{petId}")]
-        public IActionResult GetById([FromRoute] int petId)
+        [HttpGet("get/{petId}", Name = "PetGetById")]
+        public ActionResult<Pet> GetById([FromRoute] int petId)
         {
             return Ok(_petRepository.GetById(petId));
         }
