@@ -15,3 +15,4 @@ C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ref\Cli
 C:\Users\User\source\repos\ClinicService2\ClinicConsole\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.csproj.AssemblyReference.cache
 C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.csproj.CopyComplete
+C:\Users\User\source\repos\ClinicService2\ClinicConsole\obj\Debug\net7.0\ClinicConsole.sourcelink.json

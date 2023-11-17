@@ -5,7 +5,11 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicService", "ClinicService2\ClinicService.csproj", "{46CC3ECD-C8FF-420D-A1BC-743721AD840E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicConsole", "ClinicConsole\ClinicConsole.csproj", "{5A4FDB25-51C7-4484-9444-F8E7524CE9F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicConsole", "ClinicConsole\ClinicConsole.csproj", "{5A4FDB25-51C7-4484-9444-F8E7524CE9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicDesctop", "ClinicDesctop\ClinicDesctop.csproj", "{E99377DD-71ED-4E98-8E77-5607EC3D4BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicService.Data", "ClinicService.Data\ClinicService.Data.csproj", "{73A6AEE2-177A-4BD1-844E-98312F6F12BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{5A4FDB25-51C7-4484-9444-F8E7524CE9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4FDB25-51C7-4484-9444-F8E7524CE9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A4FDB25-51C7-4484-9444-F8E7524CE9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99377DD-71ED-4E98-8E77-5607EC3D4BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99377DD-71ED-4E98-8E77-5607EC3D4BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99377DD-71ED-4E98-8E77-5607EC3D4BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99377DD-71ED-4E98-8E77-5607EC3D4BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A6AEE2-177A-4BD1-844E-98312F6F12BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A6AEE2-177A-4BD1-844E-98312F6F12BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A6AEE2-177A-4BD1-844E-98312F6F12BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A6AEE2-177A-4BD1-844E-98312F6F12BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

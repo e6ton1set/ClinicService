@@ -55,3 +55,4 @@ C:\Users\User\source\repos\ClinicService2\ClinicService2\obj\Debug\net7.0\refint
 C:\Users\User\source\repos\ClinicService2\ClinicService2\obj\Debug\net7.0\ClinicService.pdb
 C:\Users\User\source\repos\ClinicService2\ClinicService2\obj\Debug\net7.0\ClinicService.genruntimeconfig.cache
 C:\Users\User\source\repos\ClinicService2\ClinicService2\obj\Debug\net7.0\ref\ClinicService.dll
+C:\Users\User\source\repos\ClinicService2\ClinicService2\obj\Debug\net7.0\ClinicService.sourcelink.json
