@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicDesctop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59c0cccad36676dd1f076d01d86f00277f957664")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicDesctop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicDesctop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

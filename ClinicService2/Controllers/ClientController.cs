@@ -24,6 +24,54 @@ namespace ClinicService.Controllers
         [HttpPost("create", Name = "ClientAdd")]
         public ActionResult<int> Create([FromBody] CreateClientRequest createRequest)
         {
+            if (string.IsNullOrEmpty(createRequest.SurName))
+            {
+                return Ok(new
+                {
+                    ErrCode = -10,
+                    ErrMessage = "Фамилия указана неккоректно."
+            });
+            }
+
+            if (string.IsNullOrEmpty(createRequest.FirstName))
+            {
+                return Ok(new
+                {
+                    ErrCode = -11,
+                    ErrMessage = "Имя указана неккоректно."
+                });
+            }
+
+
+            if (string.IsNullOrEmpty(createRequest.Patronymic))
+            {
+                return Ok(new
+                {
+                    ErrCode = -12,
+                    ErrMessage = "Отчество указана неккоректно."
+                });
+            }
+
+            var dateFrom = DateTime.Now.AddYears(-18);
+            if (createRequest.Birthday > dateFrom) 
+            {
+                return Ok(new
+                {
+                    ErrCode = -13,
+                    ErrMessage = "Дата рождения указана неккоректно (менее 18 лет)."
+                });
+            }
+
+
+            if (string.IsNullOrEmpty(createRequest.Patronymic) || createRequest.Document.Length < 10)
+            {
+                return Ok(new
+                {
+                    ErrCode = -14,
+                    ErrMessage = "Неверные сведения о документе."
+                });
+            }
+
             Client client = new Client();
             client.Document = createRequest.Document;
             client.SurName = createRequest.SurName;

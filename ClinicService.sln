@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicService", "ClinicServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicConsole", "ClinicConsole\ClinicConsole.csproj", "{5A4FDB25-51C7-4484-9444-F8E7524CE9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicDesctop", "ClinicDesctop\ClinicDesctop.csproj", "{E99377DD-71ED-4E98-8E77-5607EC3D4BF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicDesctop", "ClinicDesctop\ClinicDesctop.csproj", "{E99377DD-71ED-4E98-8E77-5607EC3D4BF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicService.Data", "ClinicService.Data\ClinicService.Data.csproj", "{73A6AEE2-177A-4BD1-844E-98312F6F12BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicService.Data", "ClinicService.Data\ClinicService.Data.csproj", "{73A6AEE2-177A-4BD1-844E-98312F6F12BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicServiceTests", "ClinicServiceTests\ClinicServiceTests.csproj", "{2571C26F-B175-4AC4-913E-A8C43B1B4593}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{73A6AEE2-177A-4BD1-844E-98312F6F12BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A6AEE2-177A-4BD1-844E-98312F6F12BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A6AEE2-177A-4BD1-844E-98312F6F12BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2571C26F-B175-4AC4-913E-A8C43B1B4593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2571C26F-B175-4AC4-913E-A8C43B1B4593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2571C26F-B175-4AC4-913E-A8C43B1B4593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2571C26F-B175-4AC4-913E-A8C43B1B4593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
